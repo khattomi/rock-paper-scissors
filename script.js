@@ -9,3 +9,9 @@ function getComputerChoice() {
         console.log("scissors");
     }
 }
+
+//create a function that takes user choice and returns it.
+function getHumanChoice () {
+    let choice = prompt("Enter your choice: ");
+    return choice.toLowerCase();
+}
