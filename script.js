@@ -15,3 +15,8 @@ function getHumanChoice () {
     let choice = prompt("Enter your choice: ");
     return choice.toLowerCase();
 }
+
+//declare two variables to keep track of the players score.
+let humanScore = 0;
+let computerScore = 0;
+
